@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-    public class Person : Entity
+    public class Person : LivingEntity
     {
         public decimal Age;
         public const decimal MinAge = 15;
